@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DriverScannerActivity">
+
+    <Button
+        android:id="@+id/btnOpenScanner"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="128dp"
+        android:background="@drawable/round_corner_button"
+        android:text="@string/btnOpenScanner" />
+
+    <TextView
+        android:id="@+id/tvUserIdTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOpenScanner"
+        android:layout_marginTop="70dp"
+        android:text="UserID:"
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvDisplayUserId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvUserIdTitle"
+        android:layout_marginTop="8dp"
+        android:text="undefined"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvNameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplayUserId"
+        android:layout_marginTop="16dp"
+        android:text="Name:"
+        android:textAlignment="viewStart"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvNameTitle"
+        android:layout_marginTop="8dp"
+        android:text="undefined"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="16dp"
+        android:text="Traveled Distance:" />
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="8dp"
+        android:text="undefined"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvFare"
+        android:layout_width="395dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="8dp"
+        android:text="undefined"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDistance"
+        android:layout_marginTop="16dp"
+        android:text="Fare for Journey:" />
+
+
+</RelativeLayout>

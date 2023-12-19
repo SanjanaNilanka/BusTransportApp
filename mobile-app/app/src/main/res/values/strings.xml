@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BusTraveler</string>
+    <string name="btnOpenScanner">Scan QR</string>
+</resources>
